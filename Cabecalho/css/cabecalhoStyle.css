@@ -1,0 +1,56 @@
+.cabecalho-component {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+header {
+  height: 90px;
+  background-color: rgb(100, 155, 255);
+}
+
+footer {
+  height:40;
+  background-color: rgb(100,255,155)
+}
+
+#logoFintech {
+  position: absolute;
+  top:22.5px;
+  left: 17.5px;
+  width: 125px;
+  height: 45px
+}
+
+#headerNav {
+  position: absolute;
+  bottom:0px;
+  right:0px;
+  height:35px;
+  width:200px;
+  background-color: rgb(255, 255, 100);
+}
+
+.navButton{
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+.simple_separator_inline{
+  margin-right: 10px;
+  padding-right:10px;
+  border-right: solid black 2px;
+}
