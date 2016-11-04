@@ -6,12 +6,12 @@
 
 header {
   height: 90px;
-  background-color: rgb(100, 155, 255);
+  background-color: rgba(0, 147, 221,1);
 }
 
 footer {
   height:40;
-  background-color: rgb(100,255,155)
+  background-color: rgb(193,215,45)
 }
 
 #logoFintech {
@@ -28,7 +28,11 @@ footer {
   right:0px;
   height:35px;
   width:200px;
-  background-color: rgb(255, 255, 100);
+  background: rgba(43, 165, 227,0); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, rgba(43, 165, 227,1), rgba(43, 165, 227,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, rgba(43, 165, 227,1), rgba(43, 165, 227,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, rgba(43, 165, 227,1), rgba(43, 165, 227,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, rgba(43, 165, 227,1), rgba(43, 165, 227,0)); /* Standard syntax */
 }
 
 .navButton{
@@ -36,6 +40,15 @@ footer {
   width: 25px;
   height: 25px;
   float: right;
+  margin-right: 10px;
+}
+
+#footerNav {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 18px;
 }
 
 ul{
@@ -53,4 +66,12 @@ li{
   margin-right: 10px;
   padding-right:10px;
   border-right: solid black 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+    color: blue;
 }
